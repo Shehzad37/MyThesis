@@ -24,7 +24,7 @@
 - **SHINE+**: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks
 
 
-## Models Features
+## Models Features/ Evaluations
 <img src='./img/models.PNG' width=600>  <img src='./img/eval.PNG' width=600>
 
 
