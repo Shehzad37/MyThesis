@@ -2,25 +2,59 @@
 This repository aims to track the progress in Entity Linking. Studies on how to prepare Entity Representations are also listed, as Entity Representations are mandatory with Entity Linking.
 
 ## Mostly Used Model(s)
-- BERT – an encoder based on a pre-trained BERT model.
+- __BERT – an encoder based on a pre-trained BERT model.
 
 ## Basic Used Models
 
 - Survey [[paper]](https://arxiv.org/pdf/2006.00575.pdf)
-- Atten: – means that a context-mention encoder leverages an attention mechanism to highlight the part of the context using an entity candidate.
-- GRU:  an encoder based on a recurrent neural network and gated recurrent units.
-- LSTM an encoder based on a recurrent neural network and long short-term memory cells.(might be also bidirectional).
-- FFNN – an encoder based on a simple feedforward neural network.
-- ELMo – an encoder based on a pre-trained ELMo model.
-- BERT – an encoder based on a pre-trained BERT model.
-- fastText – an encoder based on a pre-trained fastText model.
-- word2vec-based – an encoder that leverages principles of CBOW or skip-gram algorithms..
+- __Atten: – means that a context-mention encoder leverages an attention mechanism to highlight the part of the context using an entity candidate.
+- __GRU:  an encoder based on a recurrent neural network and gated recurrent units.
+- __LSTM an encoder based on a recurrent neural network and long short-term memory cells.(might be also bidirectional).
+- __FFNN – an encoder based on a simple feedforward neural network.
+- __ELMo – an encoder based on a pre-trained ELMo model.
+- __BERT – an encoder based on a pre-trained BERT model.
+- __fastText – an encoder based on a pre-trained fastText model.
+- __word2vec-based – an encoder that leverages principles of CBOW or skip-gram algorithms..
 
-## More Domain Specific/HIN
-- Zero-shot Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
-- Species Mention Entity Recognition, Linking and Classification Using RoBERTa in Combination with Spanish Medical Embeddings[[paper]](https://ceur-ws.org/Vol-3202/livingner-paper10.pdf)
-- SHINE+: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks
 
+
+
+## Domain Specific/HIN
+- __Zero-shot Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
+- __Species Mention Entity Recognition, Linking and Classification Using RoBERTa in Combination with Spanish Medical Embeddings[[paper]](https://ceur-ws.org/Vol-3202/livingner-paper10.pdf)
+- __SHINE+: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks
+
+### More Domain-Specific
+* Biomedical
+
+  * Medmentions ([[Mohan and Li, AKBC '19](https://github.com/chanzuckerberg/MedMentions)])
+
+    * MedMentions was created as a benchmark dataset for named entity recognition and entity linking in the biomedical domain.
+
+    * As it contains many concepts that are too broad to be of practical use, St21pv was constructed by filtering out those broad concepts from MedMentions.
+
+
+  * BC5CDR ([[Li et al., '15'](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)])
+
+    * BC5CDR is a dataset created for the BioCreative V Chemical and Disease Mention Recognition task.
+
+    * It comprises 1,500 articles, containing 15,935 chemical and 12,852 disease mentions.
+
+    * The reference knowledge base is MeSH, and almost all mentions have a gold entity in the reference knowledge base.
+
+  * WikiMed and PubMedDS ([[Shikhar et al., '20](https://github.com/svjan5/medtype)])
+
+      * *WIKIMED includes over 650,000 mentions normalized to concepts in UMLS.* (Cited)
+
+      *  Also, they created annotated corpus PUBMEDDS with more than 5 million normalized mentions. Note that this dataset was created by distant supervision, which leads to cause some noisy annotations.
+
+* Zero-shot
+
+  * Wikia datasets ([[Logeswaran et al., '19](https://www.aclweb.org/anthology/P19-1335/)])
+
+    * From Wikia hyperlinks and its related themes, they created dataset for evaluating domain generalization of entity linking task.
+
+    * They created 16 *worlds* dataset, which were split to 8 / 4 / 4 for train / dev / test and completely independent for each other.
 
 ## Contents
 
@@ -247,37 +281,7 @@ Note: major datasets for benchmarking this task are listed at [BLINK repository]
 
   * This dataset was created from WikiNews, and covers 9 diverse languages, 5 language families and 6 writing systems.
 
-### Domain-Specific
-* Biomedical
 
-  * Medmentions ([[Mohan and Li, AKBC '19](https://github.com/chanzuckerberg/MedMentions)])
-
-    * MedMentions was created as a benchmark dataset for named entity recognition and entity linking in the biomedical domain.
-
-    * As it contains many concepts that are too broad to be of practical use, St21pv was constructed by filtering out those broad concepts from MedMentions.
-
-
-  * BC5CDR ([[Li et al., '15'](https://academic.oup.com/database/article/doi/10.1093/database/baw068/2630414)])
-
-    * BC5CDR is a dataset created for the BioCreative V Chemical and Disease Mention Recognition task.
-
-    * It comprises 1,500 articles, containing 15,935 chemical and 12,852 disease mentions.
-
-    * The reference knowledge base is MeSH, and almost all mentions have a gold entity in the reference knowledge base.
-
-  * WikiMed and PubMedDS ([[Shikhar et al., '20](https://github.com/svjan5/medtype)])
-
-      * *WIKIMED includes over 650,000 mentions normalized to concepts in UMLS.* (Cited)
-
-      *  Also, they created annotated corpus PUBMEDDS with more than 5 million normalized mentions. Note that this dataset was created by distant supervision, which leads to cause some noisy annotations.
-
-* Zero-shot
-
-  * Wikia datasets ([[Logeswaran et al., '19](https://www.aclweb.org/anthology/P19-1335/)])
-
-    * From Wikia hyperlinks and its related themes, they created dataset for evaluating domain generalization of entity linking task.
-
-    * They created 16 *worlds* dataset, which were split to 8 / 4 / 4 for train / dev / test and completely independent for each other.
 
 ---
 ## Bi-Encoder vs Cross-Encoder
