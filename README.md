@@ -2,27 +2,27 @@
 This repository aims to track the progress in Entity Linking. Studies on how to prepare Entity Representations are also listed, as Entity Representations are mandatory with Entity Linking.
 
 ## Mostly Used Model(s)
-- __BERT – an encoder based on a pre-trained BERT model.
+- **BERT** – an encoder based on a pre-trained BERT model.
 
 ## Basic Used Models
 
 - Survey [[paper]](https://arxiv.org/pdf/2006.00575.pdf)
-- __Atten: – means that a context-mention encoder leverages an attention mechanism to highlight the part of the context using an entity candidate.
-- __GRU:  an encoder based on a recurrent neural network and gated recurrent units.
-- __LSTM an encoder based on a recurrent neural network and long short-term memory cells.(might be also bidirectional).
-- __FFNN – an encoder based on a simple feedforward neural network.
-- __ELMo – an encoder based on a pre-trained ELMo model.
-- __BERT – an encoder based on a pre-trained BERT model.
-- __fastText – an encoder based on a pre-trained fastText model.
-- __word2vec-based – an encoder that leverages principles of CBOW or skip-gram algorithms..
+- **Atten**: – means that a context-mention encoder leverages an attention mechanism to highlight the part of the context using an entity candidate.
+- **GRU**:  an encoder based on a recurrent neural network and gated recurrent units.
+- **LSTM** an encoder based on a recurrent neural network and long short-term memory cells.(might be also bidirectional).
+- **FFNN** – an encoder based on a simple feedforward neural network.
+- **ELMo** – an encoder based on a pre-trained ELMo model.
+- **BERT** – an encoder based on a pre-trained BERT model.
+- **fastText** – an encoder based on a pre-trained fastText model.
+- **word2vec-based** – an encoder that leverages principles of CBOW or skip-gram algorithms..
 
 
 
 
 ## Domain Specific/HIN
-- __Zero-shot Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
-- __Species Mention Entity Recognition, Linking and Classification Using RoBERTa in Combination with Spanish Medical Embeddings[[paper]](https://ceur-ws.org/Vol-3202/livingner-paper10.pdf)
-- __SHINE+: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks
+- **Zero-shot** Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
+- **Species** Mention Entity Recognition, Linking and Classification Using RoBERTa in Combination with Spanish Medical Embeddings[[paper]](https://ceur-ws.org/Vol-3202/livingner-paper10.pdf)
+- **SHINE+**: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks
 
 ### More Domain-Specific
 * Biomedical
