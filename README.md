@@ -1,5 +1,7 @@
 # Recent Trends of Entity Linking
-This repository aims to track the progress in Entity Linking. Studies on how to prepare Entity Representations are also listed, as Entity Representations are mandatory with Entity Linking.
+
+
+
 
 ## Mostly Used Model(s)
 - **BERT** – an encoder based on a pre-trained BERT model.
@@ -17,7 +19,8 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 - **word2vec-based** – an encoder that leverages principles of CBOW or skip-gram algorithms..
 
 
-
+## Models Features
+<img src='./img/models.png' width=700>
 
 ## Domain Specific/HIN
 - **Zero-shot** Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
@@ -56,7 +59,7 @@ This repository aims to track the progress in Entity Linking. Studies on how to 
 
     * They created 16 *worlds* dataset, which were split to 8 / 4 / 4 for train / dev / test and completely independent for each other.
 
-## Contents
+## Trends
 
 - [Trends (NAACL'21 and ICLR'21)](#trends-naacl21-and-iclr21)
 - [Trends (~EMNLP'20 and CoNLL'20)](#trends-emnlp20-and-conll20)
