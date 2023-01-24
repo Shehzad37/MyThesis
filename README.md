@@ -18,14 +18,20 @@
 - **fastText** – an encoder based on a pre-trained fastText model.
 - **word2vec-based** – an encoder that leverages principles of CBOW or skip-gram algorithms..
 
-
-## Models Features
-<img src='./img/models.PNG' width=600>
-
 ## Domain Specific/HIN
 - **Zero-shot** Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
 - **Species** Mention Entity Recognition, Linking and Classification Using RoBERTa in Combination with Spanish Medical Embeddings[[paper]](https://ceur-ws.org/Vol-3202/livingner-paper10.pdf)
 - **SHINE+**: A General Framework for Domain-Specific Entity Linking with Heterogeneous Information Networks
+
+
+## Models Features
+<img src='./img/models.PNG' width=600>  <img src='./img/eval.PNG' width=600>
+
+
+
+
+
+
 
 ### More Domain-Specific
 * Biomedical
