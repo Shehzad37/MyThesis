@@ -20,7 +20,7 @@
 
 
 ## Models Features
-<img src='./img/models.PNG' width=900>
+<img src='./img/models.PNG' width=600>
 
 ## Domain Specific/HIN
 - **Zero-shot** Entity Linking with Efficient Long Range Sequence Modeling [[paper]](https://arxiv.org/abs/2010.11253)
