@@ -1,7 +1,7 @@
 # Recent Trends of Entity Linking
 
 ## Bert Variants Evaluation
-BERT Survey [[paper]] https://www.mdpi.com/2076-3417/12/6/2891
+BERT Survey [[paper]](https://www.mdpi.com/2076-3417/12/6/2891)
 
 
 <img src='./img/bert_vars.PNG' width=700>  
