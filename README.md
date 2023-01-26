@@ -5,7 +5,7 @@ BERT Survey [[paper]] https://www.mdpi.com/2076-3417/12/6/2891
 
 
 <img src='./img/bert_vars.PNG' width=700>  
-<img src='./img/bert_eval.PNG' width=600>  
+<img src='./img/bert_eval.PNG' width=700>  
 
 ## Mostly Used Model(s)
 - **BERT** – an encoder based on a pre-trained BERT model.
