@@ -1,6 +1,8 @@
 # Recent Trends of Entity Linking
 
-
+## Bert Variants Evaluation
+<img src='./img/bert_vars.PNG' width=600>  
+<img src='./img/bert_eval' width=600>  
 
 
 ## Mostly Used Model(s)
